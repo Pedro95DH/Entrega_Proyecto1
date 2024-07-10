@@ -1,12 +1,175 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Pedro Díaz" />
+    <meta
+      name="description"
+      content="Proyecto 1 - Máster en Desarrollo Full Stack"
+    />
+    <meta
+      name="keywords"
+      content="Informática, Tecnología, Ordenadores, Gaming"
+    />
+    <link rel="icon" href="./assets/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>
+      Última Informática - Tienda de informática y tecnología en Canarias
+    </title>
+  </head>
+  <body>
+    <!-- <p id="bannerHead">
+      🖐 Hola, estás viendo los precios para <b>Canarias</b>. Si quieres
+      ver los precios de <b>Península</b>,
+      <a href="https://ultimainformatica.com/iniciar-sesion?create_account=1"
+        >regístrate</a
+      >
+      y
+      <a href="https://ultimainformatica.com/iniciar-sesion?back=addresses"
+        >establece tu dirección</a
+      >
+    </p> -->
+    <header>
+      <nav>
+        <button><img src="./assets/menuH.svg" alt="menu" /></button>
+        <a id="logo" href="https://ultimainformatica.com/"
+          ><img src="./assets/logo.svg" alt="logo"
+        /></a>
+        <form
+          action="https://ultimainformatica.com/modules/iqitsearch/searchiqit"
+          method="get"
+        >
+          <input
+            type="text"
+            name="s"
+            value=""
+            placeholder="Buscar en Última Informática"
+            autocomplete="off"
+          />
+          <button>
+            <img src="./assets/lupa.svg" alt="buscar" />
+          </button>
+        </form>
+        <a id="empresa" href="https://ultimainformatica.com/ultima-empresas"
+          ><span>¿Eres una empresa?</span>Registrate aquí</a
+        >
+        <a
+          id="registro"
+          href="https://ultimainformatica.com/iniciar-sesion?back=my-account"
+          ><img src="./assets/inicioSesion.svg" alt="" /><span>Hola,</span>
+          <p>Iniciar sesión</p></a
+        >
+        <a id="carrito" href=""
+          ><img src="./assets/carrito.svg" alt="Carrito"
+        /></a>
+      </nav>
+      <ul id="zonas">
+        <li>
+          <a href=""
+            ><img src="./assets/ordenadores.svg" alt="Ordenadores Última" />
+            <p>Ordenadores Última</p></a
+          >
+        </li>
+        <li>
+          <a href=""
+            ><img src="./assets/monitores.svg" alt="Monitores" />
+            <p>Monitores</p></a
+          >
+        </li>
+        <li>
+          <a href=""
+            ><img src="./assets/empresas.svg" alt="Última empresas" />
+            <p>Última empresas</p></a
+          >
+        </li>
+        <li>
+          <a href=""
+            ><img src="./assets/cliente.svg" alt="Atención al cliente" />
+            <p>Atención al cliente</p></a
+          >
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section id="hero-desktop">
+        <div>
+          <img
+            id="cholas"
+            src="./assets/cholas.png"
+            alt="en cholas y a jugar"
+          />
+          <button>Ver ofertas</button>
+        </div>
+        <img
+          id="promocion"
+          src="./assets/promocion.png"
+          alt="ofertas de verano"
+        />
+      </section>
+      <section id="hero-mobile">
+        <img id="cholas" src="./assets/cholas.png" alt="en cholas y a jugar" />
+        <div>
+          <img
+            id="promocion"
+            src="./assets/promocion.png"
+            alt="ofertas de verano"
+          />
+          <button>Ver ofertas</button>
+        </div>
+      </section>
+      <section class="secciones" id="secciones-desktop">
+        <a href="https://ultimainformatica.com/ultima-pc-gaming/"
+          ><img
+            class="seccion"
+            src="./assets/gamingD.jpeg"
+            alt="PC Gaming Última"
+        /></a>
+        <a href="https://ultimainformatica.com/pc-gaming-ultima-pba-cd-tenerife"
+          ><img
+            class="seccion"
+            src="./assets/tenerifeD.jpeg"
+            alt="PC Oficial CD Tenerife"
+        /></a>
+        <a href="https://ultimainformatica.com/perifericos"
+          ><img
+            class="seccion"
+            src="./assets/perifericoD.jpeg"
+            alt="Todo en periféricos"
+        /></a>
+        <a href="https://ultimainformatica.com/monitores/#/s/monitores/f/en-oferta:si"
+          ><img
+            class="seccion"
+            src="./assets/monitorD.jpeg"
+            alt="Los mejores Monitores"
+        /></a>
+      </section>
+      <section class="secciones" id="secciones-mobile">
+        <a href="https://ultimainformatica.com/ultima-pc-gaming/"
+          ><img
+            class="seccion"
+            src="./assets/gamingM.jpeg"
+            alt="PC Gaming Última"
+        /></a>
+        <a href="https://ultimainformatica.com/pc-gaming-ultima-pba-cd-tenerife"
+          ><img
+            class="seccion"
+            src="./assets/tenerifeM.jpeg"
+            alt="PC Oficial CD Tenerife"
+        /></a>
+        <a href="https://ultimainformatica.com/perifericos"
+          ><img
+            class="seccion"
+            src="./assets/perifericoM.jpeg"
+            alt="Todo en periféricos"
+        /></a>
+        <a href="https://ultimainformatica.com/monitores/#/s/monitores/f/en-oferta:si"
+          ><img
+            class="seccion"
+            src="./assets/monitorM.jpeg"
+            alt="Los mejores Monitores"
+        /></a>
+      </section>
+    </main>
+  </body>
 </html>
