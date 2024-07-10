@@ -99,7 +99,7 @@ form button {
   border-radius: 0 60px 60px 0;
   padding: 0 5px;
   height: 46px;
-  border:none;
+  border: 1px white;
 }
 
 #empresa {
