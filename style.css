@@ -19,6 +19,8 @@
   --tablet--brakpoint: 768px;
 }
 
+/* CSS del banner superior */
+
 /* #bannerHead {
   background-color: var(--third-color);
   color: var(--primary-color);
@@ -31,9 +33,13 @@
   top: 0%;
 } */
 
+/* Añado pointer a todos los button de la página */
+
 button {
   cursor: pointer;
 }
+
+/* Header */
 
 a {
   color: var(--primary-color);
@@ -173,6 +179,8 @@ a span {
   height: 20px;
 }
 
+/* Header en FOrmato Tablet */
+
 @media screen and (max-width: 768px) {
   nav {
     width: 100%;
@@ -228,6 +236,8 @@ a span {
     top: 125px;
   }
 }
+
+/* Header en Formato Móvil */
 
 @media screen and (max-width: 375px) {
   #zonas li {
@@ -293,6 +303,8 @@ a span {
   align-items: center;
 }
 
+/* Hero en Formato Tablet (Con esta configuración vale también para móvil)*/
+
 @media screen and (max-width: 768px) {
   #hero-desktop {
     display: none;
@@ -352,6 +364,8 @@ a span {
   }
 }
 
+/* Secciones principales*/
+
 #secciones-desktop {
   width: 100%;
   height: 200px;
@@ -377,6 +391,8 @@ a span {
   animation-fill-mode: forwards;
 }
 
+/* Animación para las secciones*/
+
 @keyframes enfoque {
   0% {
     border: 2px solid lightgray;
@@ -396,6 +412,8 @@ a span {
   width: 30%;
   height: 30%;
 }
+
+/* Secciones en formato tablet y móvil*/
 
 @media screen and (max-width: 768px) {
   #secciones-desktop {
@@ -425,6 +443,7 @@ a span {
     }
   }
 }
+ /* Descuentos y ofertas */
 
 h2 {
   text-align: center;
@@ -516,11 +535,14 @@ h2 {
   color: var(--secondary-color);
 }
 
+/* Modificacion de Descuentos y ofertas para mejorar visivilidad en Móvil  */
+
 @media screen and (max-width: 375px) {
   #descuentos {
     width: 90%;
   }
 }
+/* Opiniones */
 
 #Opiniones {
   width: 70%;
@@ -549,6 +571,8 @@ h2 {
 #Opiniones article p {
   color: gray;
 }
+
+/* Footer */
 
 footer {
   color: var(--primary-color);
@@ -638,6 +662,8 @@ footer > p {
   padding-bottom: 20px;
 }
 
+/* Footer versión tablet */
+
 @media screen and (max-width: 768px) {
 
   #tiendas {
@@ -656,6 +682,7 @@ footer > p {
   }
 }
 
+/* Footer versión móvil */
 
 @media screen and (max-width: 375px) {
 
